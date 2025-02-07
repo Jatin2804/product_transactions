@@ -1,0 +1,29 @@
+# Initialize DB
+GET http://localhost:3000/initialize-db
+
+
+###
+GET http://localhost:3000/transactions?month=3
+
+###
+GET http://localhost:3000/data/3
+
+###
+GET http://localhost:3000/search/mens
+
+# Get Statistics (e.g., for a specific month)
+###
+GET http://localhost:3000/statistics?month=1
+
+# Get Bar Chart Data (e.g., for a specific month)
+###
+GET http://localhost:3000/bar-chart?month=1
+
+###
+
+# Get Pie Chart Data (e.g., for a specific month)
+GET http://localhost:3000/pie-chart?month=1
+
+# Get Combined Data (e.g., for a specific month)
+###
+GET http://localhost:3000/combined?month=1
